@@ -28,9 +28,12 @@ import com.atlassian.util.concurrent.Promise;
 public class JiraClient {
 
 	private static final String JIRA_URL = "https://agile-jira.pearson.com";
-	private static final String JIRA_ADMIN_USERNAME = "VBorsAm";
-	private static final String JIRA_ADMIN_PASSWORD = "Dad@1996";
+	private static final String JIRA_ADMIN_USERNAME = "YOURID";
+	private static final String JIRA_ADMIN_PASSWORD = "YOUR_PASSWORD";
+	
+	System.out.println("Enter your jira id and password\n");
 
+	
 	public static void main(String[] args) throws Exception {
 
 		JiraRestClientFactory factory = new AsynchronousJiraRestClientFactory();
